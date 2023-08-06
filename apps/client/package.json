@@ -1,0 +1,13 @@
+{
+  "name": "@graph-ql-test/client",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@total-typescript/ts-reset": "^0.4.2",
+    "bun-types": "latest"
+  },
+  "dependencies": { "graphql-mobius": "^0.1.8" },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}

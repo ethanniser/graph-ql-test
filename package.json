@@ -1,0 +1,14 @@
+{
+  "name": "@graph-ql-test/root",
+  "workspaces": [
+    "apps/*",
+    "shared"
+  ],
+  "devDependencies": {
+    "@total-typescript/ts-reset": "^0.4.2",
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}

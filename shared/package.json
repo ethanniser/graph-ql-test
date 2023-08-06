@@ -1,0 +1,8 @@
+{
+  "name": "@graph-ql-test/shared",
+  "version": "0.0.0",
+  "exports": "./index.ts",
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}

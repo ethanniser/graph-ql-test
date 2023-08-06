@@ -1,0 +1,17 @@
+{
+  "name": "@graph-ql-test/server",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@total-typescript/ts-reset": "^0.4.2",
+    "bun-types": "latest"
+  },
+  "dependencies": {
+    "@elysiajs/graphql-yoga": "^0.6.0",
+    "elysia": "^0.6.1",
+    "graphql-mobius": "^0.1.8"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
