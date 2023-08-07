@@ -8,8 +8,7 @@
   },
   "dependencies": {
     "@elysiajs/graphql-yoga": "^0.6.0",
-    "elysia": "^0.6.1",
-    "graphql-mobius": "^0.1.8"
+    "elysia": "^0.6.1"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"

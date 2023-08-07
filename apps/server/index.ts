@@ -1,12 +1,6 @@
 import { Elysia } from "elysia";
 import { yoga } from "@elysiajs/graphql-yoga";
 import { typeDefs } from "@graph-ql-test/shared";
-import type {
-  CreateMobius,
-  Resolver,
-} from "../../node_modules/graphql-mobius/src/index";
-
-type Resolvers = Resolver<CreateMobius<typeof typeDefs>>;
 
 const app = new Elysia()
   .use(
@@ -23,7 +17,7 @@ const app = new Elysia()
             };
           },
         },
-      } satisfies Resolvers,
+      },
     })
   )
   .listen(8080);

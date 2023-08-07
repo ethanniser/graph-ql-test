@@ -1,4 +1,4 @@
-import { Mobius } from "../../node_modules/graphql-mobius/src/index";
+import { Mobius } from "graphql-mobius";
 import { typeDefs } from "@graph-ql-test/shared";
 
 const mobius = new Mobius<typeof typeDefs>({
